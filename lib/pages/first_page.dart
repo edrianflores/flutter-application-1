@@ -21,6 +21,15 @@ class FirstPage extends StatelessWidget {
               ),
             ),
 
+            // profile page list tile
+            ListTile(
+              leading: Icon(Icons.person),
+              title: Text("Profile"),
+              onTap: () {
+                Navigator.pushNamed(context, '/profile');
+              },
+            ),
+
             // home page list tile
             ListTile(
               leading: Icon(Icons.home),

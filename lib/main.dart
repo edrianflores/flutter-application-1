@@ -3,6 +3,7 @@ import 'package:flutter_application_1/pages/first_page.dart';
 import 'package:flutter_application_1/pages/second_page.dart';
 import 'package:flutter_application_1/pages/home_page.dart';
 import 'package:flutter_application_1/pages/settings_page.dart';
+import 'package:flutter_application_1/pages/profile_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -25,6 +26,7 @@ class MyApp extends StatelessWidget {
         '/secondpage' : (context) => SecondPage(),
         '/homepage' : (context) => HomePage(),
         '/settingspage' : (context) => SettingsPage(),
+        '/profilepage' : (context) => ProfilePage(),
       },
     );
   }
