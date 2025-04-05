@@ -10,7 +10,17 @@ class FirstPage extends StatelessWidget {
       appBar: AppBar(
         title: Text("1st Page"),
       ),
-      drawer: Drawer(
+      
+    );
+  }
+}
+
+
+
+
+/*
+
+drawer: Drawer(
         backgroundColor: Colors.white,
         child: Column(
           children: [
@@ -26,7 +36,8 @@ class FirstPage extends StatelessWidget {
               leading: Icon(Icons.person),
               title: Text("Profile"),
               onTap: () {
-                Navigator.pushNamed(context, '/profile');
+                Navigator.pop(context);
+                Navigator.pushNamed(context, '/profilepage');
               },
             ),
 
@@ -35,6 +46,7 @@ class FirstPage extends StatelessWidget {
               leading: Icon(Icons.home),
               title: Text("Home"),
               onTap: () {
+                Navigator.pop(context);
                 Navigator.pushNamed(context, '/homepage');
               },
             ),
@@ -44,16 +56,15 @@ class FirstPage extends StatelessWidget {
               leading: Icon(Icons.settings),
               title: Text("Settings"),
               onTap: () {
+                Navigator.pop(context);
                 Navigator.pushNamed(context, '/settingspage');
               },
             ),
           ],
         ),
       ),
-    );
-  }
-}
 
+*/
 
 
 /*
